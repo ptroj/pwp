@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport">
+    <head>
+        <title>Projeto PW</title>
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/square.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/forms.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<link rel="shortcut icon" href="../img/NexusG.png" />
+    </head>
+
+    <body>
+        <header>
+            <div class="header-fixed-bar">
+                <span>Nexus Gamer</span>
+
+                <div class="header-search">
+                    <input type="search" placeholder="Pesquisar produtos..." class="header-search-input">
+                    <button type="submit" class="header-search-button">
+                    <i class="bi bi-search"></i> </button>
+                </div>
+            </div>
+
+			<div class="box-header">
+				<div class="logo">
+					<a href="../index.html"> <img src="../img/NexusG.png" class="logo-img"> </a>
+				</div>
+
+				<div class="title">
+					David Matheus, Davi José e Eriksander
+					<div class="subtitle">
+						Perfil
+					</div>
+				</div>
+
+				<div class="space">
+					
+				</div>
+			</div>
+
+            
+		</header>
+
+        <main>
+            <div class="sidebar">
+				<div class="s-index">
+					<div class="s-index-box">
+                        <a href="../index.html" class="bi bi-house s-index-box-text"></a>
+						<a href="carrinho.html" class="bi bi-cart s-index-box-text"></a>
+						<a href="favoritos.html" class="bi bi-heart s-index-box-text"></a>
+						<a href="perfil.html" class="bi bi-person-circle s-index-box-text"></a>
+						<a href="contato.html" class="bi bi-headset s-index-box-text"></a>
+						<a href="local.html" class="bi bi-geo-alt s-index-box-text"></a>
+						<a href="depart/depart.html" class="bi bi-cpu s-index-box-text"></a>
+						<a href="config.html" class="bi bi-gear-wide-connected s-index-box-text"></a>
+                        <a href="info.html" class="bi bi-info-circle s-index-box-text"></a>
+					</div>
+				</div>
+			</div>
+
+            <div class="main-box">
+                <div class="main-text">
+                    <div class="main-left-title">Cadastro ou Login</div>
+                    <div class="main-paragraph2">
+                        Seja bem vindo à página de cadastro da loja virtual Nexus Gamer! Preencha as inforamções, dê um clique no enviar e esteja pronto para
+                        usufruir de nossos serviços.
+                    </div>
+
+                    <div class="main-paragraph2">
+                        Observação rápida: Este é um site puramente fictício com propósitos pedagógicos 
+                        no meio de aprendizagem da tecnologia web. Ressaltamos que nenhum dos produtos 
+                        listados está disponível para venda real e que as funcionalidades de cadastro 
+                        servem apenas para demonstrar a estrutura de um sistema de e-commerce moderno. <br>
+                    </div>
+
+                    <div class="main-div"></div>
+
+                    <div class="main-left-title">
+                        <i class="bi bi-person"></i>
+                        &NonBreakingSpace; Formulário de cadastro Nexus Gamer
+                    </div>
+
+                    <form class="main-form">
+                        <label for="nome">Nome Completo</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Ex.: João Silva"><br>
+
+                        <label for="cpf">CPF</label><br>
+                        <input type="number" id="cpf" name="cpf" placeholder="Ex.: 123.456.789-00"><br>
+
+                        <label for="email">E-Mail</label><br>
+                        <input type="text" id="email" name="email" placeholder="Ex.: exemplo@exemplo.com"><br>
+
+                        <div class="main-form-address">
+                            <div>
+                                <label for="cep">CEP: </label><br><br>
+                                <input type="number" id="cep" name="cep" placeholder="Ex.: 12345-678"><br><br>
+                                
+                                <label for="bairro">Bairro: </label><br><br>
+                                <input type="text" id="bairro" name="bairro" placeholder="Ex.: Bairro/Conjunto"><br><br>
+                            </div> <br>
+
+                            <div>
+                                <label for="rua">Logradouro: </label><br><br>
+                                <input type="text" id="rua" name="rua" placeholder="Ex.: Rua Raposo"><br><br>
+
+                                <label for="numero_casa">Número: </label><br><br>
+                                <input type="number" id="numero_casa" name="numero_casa" placeholder="Ex.: 123"><br><br>
+                            </div><br>
+                        </div>
+                        
+                        <div class="main-form-address">
+                            <div>
+                                <label for="cidade">Cidade: </label><br><br>
+                                <input type="text" id="cidade" name="cidade" placeholder="Ex.: São Paulo"><br><br>
+                            </div><br>
+                            
+                            <div class="estado">
+                                <label for="estado">Estado</label><br><br>
+                                <select id="estado" name="estado">
+                                    <option value="null">Estado</option>
+                                    <option value="ac">Acre</option>
+                                    <option value="al">Alagoas</option>
+                                    <option value="ap">Amapá</option>
+                                    <option value="am">Amazonas</option>
+                                    <option value="ba">Bahia</option>
+                                    <option value="ce">Ceará</option>
+                                    <option value="df">Distrito Federal</option>
+                                    <option value="es">Espírito Santo</option>
+                                    <option value="go">Goiás</option>
+                                    <option value="ma">Maranhão</option>
+                                    <option value="mt">Mato Grosso</option>
+                                    <option value="ms">Mato Grosso do Sul</option>
+                                    <option value="mg">Minas Gerais</option>
+                                    <option value="pa">Pará</option>
+                                    <option value="pb">Paraíba</option>
+                                    <option value="pr">Paraná</option>
+                                    <option value="pe">Pernambuco</option>
+                                    <option value="pi">Piauí</option>
+                                    <option value="rj">Rio de Janeiro</option>
+                                    <option value="rn">Rio Grande do Norte</option>
+                                    <option value="rs">Rio Grande do Sul</option>
+                                    <option value="ro">Rondônia</option>
+                                    <option value="rr">Roraima</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="se">Sergipe</option>
+                                    <option value="to">Tocantins</option>
+                                </select><br><br>
+                            </div> <br>
+
+                        </div>
+
+                        <label for="senha">Senha</label><br>
+                        <input type="password" id="senha" name="senha" placeholder="Ex.: 1234567890"><br>
+
+                        <label for="senha_confirm">Confirme sua senha</label><br>
+                        <input type="password" id="senha" name="senha" placeholder=""><br><br>
+
+                        <div class="main-div"></div>
+
+                        <div class="main-form-terms">
+                            <label for="termos">Termos e Condições:</label><br>
+                            <textarea id="main-form-terms-text" rows="20" cols="50" readonly>
+                            **TERMOS DE USO DO SERVIÇO DIGITAL**
+
+                            **(VERSÃO INTEGRAL E VINCULANTE – 15 DE MAIO DE 2026)**
+
+                            **ESTE É UM ACORDO LEGAL ENTRE VOCÊ (PESSOA FÍSICA OU JURÍDICA) E O PROVEDOR DO SERVIÇO. AO ACESSAR, NAVEGAR, UTILIZAR, FAZER DOWNLOAD, INSTALAR, OU DE QUALQUER FORMA INTERAGIR COM QUALQUER PARTE DO AMBIENTE DIGITAL, VOCÊ DECLARA TER LIDO, COMPREENDIDO E CONCORDADO COM TODOS OS TERMOS E CONDIÇÕES ABAIXO, SEM QUAISQUER RESERVAS OU RESTRIÇÕES.**
+
+                            **SE VOCÊ NÃO CONCORDAR COM QUALQUER DISPOSIÇÃO DESTE INSTRUMENTO, VOCÊ NÃO ESTÁ AUTORIZADO A UTILIZAR O SERVIÇO, DEVENDO IMEDIATAMENTE CESAR O ACESSO E, SE FOR O CASO, DESINSTALAR QUAISQUER COMPONENTES OU APLICATIVOS RELACIONADOS, SOB PENA DE RESPONSABILIZAÇÃO CIVIL E CRIMINAL NOS TERMOS DA LEI APLICÁVEL.**
+
+                            ---
+
+                            ## **CAPÍTULO I – DISPOSIÇÕES GERAIS E DEFINIÇÕES**
+
+                            **1.1 Objeto.** O presente instrumento tem por objeto regular as condições de acesso e utilização do ambiente digital (doravante denominado simplesmente “**Serviço**” ou “**Plataforma**”), incluindo, mas sem a ele se limitar, quaisquer websites, aplicações móveis, interfaces de programação de aplicações (APIs), servidores, bancos de dados, conteúdos, funcionalidades, ferramentas, softwares, scripts, e demais ativos digitais operados ou controlados pelo Provedor, ainda que acessados por meio de redes ou dispositivos de terceiros.
+
+                            **1.2 Definições.** Para os fins destes Termos, os seguintes termos e expressões, quando grafados com letra inicial maiúscula, terão os significados a eles atribuídos abaixo, prevalecendo sobre quaisquer acepções dicionarizadas ou setoriais em caso de conflito:
+
+                            - **“Conteúdo”** : qualquer informação, dado, texto, imagem, fotografia, ilustração, gráfico, logotipo, ícone, clipe de áudio, vídeo, animação, código-fonte, código-objeto, biblioteca de software, planilha, documento, arquivo, metadado, comentário, opinião, avaliação, publicação em fóruns, mensagens privadas, transmissões ao vivo, ou qualquer outro material disponibilizado por meio do Serviço, seja pelo Provedor, pelo Usuário, ou por terceiros.
+
+                            - **“Usuário”** , **“Você”** ou **“Sua”** : a pessoa natural ou jurídica que acessa, utiliza, ou interage com o Serviço, por qualquer meio, incluindo, mas não se limitando, a navegação anônima, acesso via interface de programação, ou visualização de conteúdo indexado por mecanismos de busca, ainda que temporariamente.
+
+                            - **“Provedor”** , **“Nós”** , **“Nosso”** ou **“Empresa”** : a entidade provedora do Serviço, pessoa jurídica de direito privado, devidamente constituída nos termos da legislação do país de sua sede, responsável pela operação, manutenção, disponibilização e administração do ambiente digital objeto destes Termos.
+
+                            - **“Dados Pessoais”** : qualquer informação relacionada a uma pessoa natural identificada ou identificável, incluindo, mas não se limitando, nome, sobrenome, endereço de correio eletrônico, endereço de protocolo de internet (IP), identificadores de dispositivos, geolocalização, dados biométricos, padrões de comportamento, preferências, ou quaisquer outros dados que, isolados ou combinados com outros, possam levar à identificação de um ser humano.
+
+                            - **“Dispositivo”** : qualquer equipamento eletrônico capaz de acessar o Serviço, incluindo, mas não se limitando, computadores pessoais (desktops e laptops), tablets, smartphones, relógios inteligentes, televisores conectados, consoles de jogos, assistentes virtuais, leitores eletrônicos, e quaisquer outros dispositivos da chamada “Internet das Coisas”.
+
+                            **1.3 Capacidade e Legitimidade.** Ao aceitar estes Termos, o Usuário declara, sob as penas da lei, que possui plena capacidade civil para contratar, nos termos do ordenamento jurídico a que está sujeito, ou, se menor ou relativamente incapaz, que obteve o consentimento expresso e prévio de seu representante legal, sendo este responsável solidário por todas as ações do menor no âmbito do Serviço. O Usuário declara ainda que não está sujeito a sanções comerciais ou econômicas, nem integra listas restritivas de qualquer natureza que o impeçam de utilizar serviços digitais sob a jurisdição aplicável.
+
+                            ---
+
+                            ## **CAPÍTULO II – ACEITAÇÃO E MODIFICAÇÕES DOS TERMOS**
+
+                            **2.1 Aceitação Tácita e Expressa.** Este Termo constitui um contrato adesão. A aceitação manifesta-se pelo simples ato de acessar ou utilizar qualquer parte do Serviço, independentemente de qualquer ação afirmativa adicional, como clicar em caixas de confirmação (“checkbox”) ou em botões de concordância (“ok”, “aceito”), salvo disposição em contrário determinada por lei irrenunciável. Fica ainda estabelecido que a permanência no Serviço por tempo superior a trinta (30) segundos contínuos configura aceitação plena, irrevogável e irretratável.
+
+                            **2.2 Modificações Unilaterais.** O Provedor reserva-se o direito de alterar, a qualquer tempo e sem necessidade de aviso prévio individualizado ou justificativa, o conteúdo, a estrutura, a disponibilidade, os requisitos técnicos, e as próprias disposições deste Termo, no todo ou em parte. **As alterações entram em vigor imediatamente após a publicação da versão revisada no domínio do Serviço**, considerando-se como data de divulgação a data de última revisão indicada no cabeçalho deste documento.
+
+                            **2.3 Obrigação de Revisão Periódica.** O Usuário assume o dever inalienável de revisar estes Termos a cada acesso, sendo a data de “última atualização” o único parâmetro válido para determinar a versão vigente. A continuidade do uso do Serviço após qualquer modificação implica automática e indelével concordância com a nova versão. Não há direito a notificação eletrônica, postal, telefônica, ou por qualquer outro meio acerca de alterações.
+
+                            ---
+
+                            ## **CAPÍTULO III – REGRAS DE CONDUTA E PROIBIÇÕES**
+
+                            **3.1 Uso Lícito e Boa-fé.** O Usuário compromete-se a utilizar o Serviço exclusivamente para finalidades lícitas, de acordo com a moral, a ordem pública, os bons costumes, e as normas aplicáveis, sejam elas nacionais, internacionais, setoriais, regulamentares ou administrativas.
+
+                            **3.2 Condutas Estritamente Vedadas.** Constituem violação grave a estes Termos, sujeitando o infrator às sanções descritas no Capítulo VIII, as seguintes condutas (lista meramente exemplificativa, não exaustiva):
+
+                            - **a)** Violar qualquer direito de propriedade intelectual do Provedor ou de terceiros, incluindo, mas não se limitando, direitos autorais, patentes, marcas, segredos industriais, softwares proprietários e bases de dados;
+                            - **b)** Realizar engenharia reversa, descompilação, desmontagem, ou qualquer outra tentativa de obter o código-fonte ou os algoritmos subjacentes ao Serviço, salvo quando expressamente autorizado por lei que proíba tal vedação, hipótese em que o Usuário deverá comunicar previamente o Provedor por carta registrada com aviso de recebimento;
+                            - **c)** Inserir, transmitir ou disponibilizar qualquer tipo de código malicioso (vírus, worms, cavalos de troia, ransomwares, spywares, backdoors, rootkits, ou similares);
+                            - **d)** Praticar quaisquer atos de scrapings, crawlers, robôs, ou qualquer meio automatizado de extração de dados ou conteúdos em volume que exceda a média de utilização humana razoável, conforme critério exclusivo do Provedor;
+                            - **e)** Utilizar o Serviço para praticar, fomentar, ou facilitar atividades ilegais, incluindo, mas não se limitando, pirataria, comércio de substâncias ilícitas, exploração de menores, incitação ao ódio, terrorismo, lavagem de dinheiro, evasão fiscal, contrabando digital, ou qualquer crime cibernético tipificado em tratados internacionais;
+                            - **f)** Interferir ou tentar interferir na integridade, segurança, desempenho ou disponibilidade do Serviço, incluindo ataques de negação de serviço (DDoS), injeção de SQL, falsificação de requisições, ou qualquer outro método que sobrecarregue indevidamente a infraestrutura do Provedor;
+                            - **g)** Coletar, armazenar, processar ou compartilhar Dados Pessoais de outros Usuários sem o consentimento expresso e informado do titular, na forma da legislação aplicável;
+                            - **h)** Suplantar ou falsificar a identidade de qualquer pessoa ou entidade, inclusive criando contas ou perfis fictícios para enganar outros Usuários ou o Provedor.
+
+                            **3.3 Consequência Imediata da Violação.** A mera suspeita fundamentada de violação de qualquer das condutas acima autoriza o Provedor, independentemente de notificação ou prévia advertência, a suspender ou encerrar imediatamente o acesso do Usuário, reter quaisquer fundos ou ativos digitais associados, e compartilhar informações com autoridades competentes, sem qualquer responsabilidade indenizatória.
+
+                            ---
+
+                            ## **CAPÍTULO IV – PROPRIEDADE INTELECTUAL E LICENÇAS**
+
+                            **4.1 Titularidade dos Ativos.** Todo o Conteúdo disponibilizado pelo Provedor, incluindo, mas não se limitando, textos, interfaces visuais, caches de página, ícones, scripts, softwares, algoritmos, compilações, metodologias, e a própria arquitetura do Serviço, protegido ou não por registro, é de propriedade exclusiva do Provedor ou de seus licenciantes, estando protegido pelas leis de direitos autorais, tratados internacionais de propriedade intelectual, e demais normas aplicáveis.
+
+                            **4.2 Licença Limitada e Revogável.** O Provedor concede ao Usuário uma licença pessoal, não exclusiva, intransferível, não sublicenciável, limitada ao território onde o acesso ocorre, e **revogável a qualquer momento, por qualquer motivo ou sem motivo**, para acessar e utilizar o Serviço estritamente de acordo com estes Termos, para finalidades não comerciais, exceto quando expressamente autorizado por escrito pelo Provedor. Esta licença não implica nenhuma transferência de direitos de propriedade.
+
+                            **4.3 Conteúdo Gerado pelo Usuário.** Ao enviar, publicar, transmitir ou de qualquer forma disponibilizar qualquer Conteúdo por intermédio do Serviço, o Usuário concede ao Provedor uma licença mundial, perpétua, irrevogável, gratuita, plenamente paga, sublicenciável e transferível para utilizar, reproduzir, modificar, adaptar, criar obras derivadas, distribuir, exibir publicamente, veicular, armazenar, e explorar comercialmente tal Conteúdo, por qualquer meio ou tecnologia, existente ou futuro, sem qualquer ônus ou contrapartida ao Usuário. O Usuário renuncia irrevogavelmente a quaisquer direitos morais sobre o Conteúdo gerado, na extensão máxima permitida pela lei aplicável.
+
+                            ---
+
+                            ## **CAPÍTULO V – PRIVACIDADE E DADOS PESSOAIS**
+
+                            **5.1 Coleta Ampla e Geral.** O Usuário toma ciência e autoriza expressamente que o Provedor colete, armazene, processe, compartilhe e utilize toda e qualquer informação decorrente do uso do Serviço, incluindo dados de navegação, preferências de conteúdo, interações com outros Usuários, dados de geolocalização (aproximada e precisa), identificadores de hardware (MAC adress, IMEI, Serial Number), logs de acesso completos, metadados de arquivos, histórico de compras, padrões de digitação, duração das sessões, movimentos do cursor, scroll de tela, dados de acelerômetro nos dispositivos móveis, e informações de rede local.
+
+                            **5.2 Finalidades Inclusivas.** Os dados coletados poderão ser utilizados para: (i) operação e manutenção do Serviço, (ii) aprimoramento de algoritmos e técnicas de inteligência artificial, (iii) prevenção a fraudes e segurança, (iv) marketing direto, (v) compartilhamento com parceiros comerciais, (vi) pesquisa interna, (vii) cumprimento de ordens judiciais, e (viii) quaisquer outras finalidades que o Provedor, a seu exclusivo critério, julgar justificáveis.
+
+                            **5.3 Cookies e Tecnologias Análogas.** Ao acessar o Serviço, o Usuário consente com a instalação de cookies próprios e de terceiros, pixels, beacons, fingerprinting de dispositivos, e quaisquer outras tecnologias de rastreamento, ainda que não haja aviso prévio em banner, considerando-se que a simples navegação por mais de três (3) segundos configura consentimento livre, informado e inequívoco.
+
+                            **5.4 Ausência de Garantia de Privacidade Absoluta.** Nenhum sistema eletrônico é completamente seguro. O Provedor não garante que os Dados Pessoais estejam imunes a ataques de terceiros, interceptações, violações de segurança, ou qualquer outro evento danoso, eximindo-se de responsabilidade por tais ocorrências, exceto em caso de dolo ou culpa grave comprovada mediante sentença judicial transitada em julgado.
+
+                            ---
+
+                            ## **CAPÍTULO VI – ISENÇÃO DE RESPONSABILIDADE E LIMITAÇÃO DE DANOS**
+
+                            **6.1 Disponibilidade do Serviço.** O Provedor não garante que o Serviço estará disponível a qualquer tempo, ininterruptamente, sem falhas, erros, perda de dados, atrasos, vulnerabilidades, ou qualquer outra imperfeição. O Serviço é fornecido “**no estado em que se encontra**” (“as is”) e “**conforme disponível**” (“as available”), sem quaisquer garantias implícitas de comerciabilidade, adequação a um propósito específico, ou não violação de direitos.
+
+                            **6.2 Responsabilidade Excluída.** Em nenhuma hipótese, sob qualquer teoria de responsabilidade (contratual, extracontratual, objetiva, subjetiva, civil, consumerista, trabalhista, penal ou de qualquer outra natureza), o Provedor será responsável por:
+
+                            - **a)** Danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos;
+                            - **b)** Lucros cessantes, perda de receitas, perda de dados, perda de oportunidades comerciais;
+                            - **c)** Qualquer ação ou omissão de outros Usuários ou terceiros que utilizem o Serviço;
+                            - **d)** Conteúdo ofensivo, ilegal, ou inadequado gerado por terceiros;
+                            - **e)** Interrupções, exclusão de informações, atrasos ou erros causados por provedores de internet, força maior, caso fortuito, atos de governo, greves, desastres naturais, ataques cibernéticos, ou qualquer evento fora de seu controle razoável.
+
+                            **6.3 Limitação Financeira de Responsabilidade.** Na improvável hipótese de algum tribunal competente ignorar as exclusões acima, o Provedor limita sua responsabilidade ao valor total que o Usuário efetivamente pagou ao Provedor nos últimos seis (6) meses que antecederam o evento gerador do dano, ou ao equivalente a cem unidades monetárias de base fiscal (R$ 100,00), o que for menor. Se o Usuário jamais realizou qualquer pagamento, sua indenização será limitada a um real (R$ 1,00).
+
+                            ---
+
+                            ## **CAPÍTULO VII – INDENIZAÇÃO (DEFESA E RESSARCIMENTO)**
+
+                            O Usuário concorda em indenizar, defender e isentar o Provedor, seus dirigentes, administradores, empregados, agentes, licenciantes, parceiros e sucessores de e contra quaisquer reclamações, demandas, ações judiciais ou administrativas, perdas, danos, custos, despesas e honorários advocatícios (incluindo, mas não se limitando, custos de litígio em grau recursal extrajudicial) decorrentes de: (i) violação destes Termos pelo Usuário; (ii) violação de qualquer lei ou direito de terceiros (incluindo direitos de propriedade intelectual, privacidade, imagem, ou sigilo); (iii) qualquer Conteúdo gerado pelo Usuário; ou (iv) uso indevido do Serviço por qualquer pessoa que acesse utilizando as credenciais do Usuário.
+
+                            ---
+
+                            ## **CAPÍTULO VIII – SANÇÕES, SUSPENSÃO E RESCISÃO**
+
+                            **8.1 Sanções Graduais ou Imediatas.** O Provedor poderá, a seu exclusivo critério e sem que qualquer enumeração seja exaustiva, aplicar as seguintes sanções ao Usuário que violar estes Termos:
+
+                            - **a)** Advertência verbal (por meio eletrônico);
+                            - **b)** Advertência escrita com imposição de restrição parcial de funcionalidades;
+                            - **c)** Suspensão temporária do acesso por prazo indeterminado;
+                            - **d)** Rescisão imediata e definitiva do acesso, com bloqueio de qualquer tentativa futura de cadastro;
+                            - **e)** Exclusão de todo e qualquer Conteúdo gerado pelo Usuário;
+                            - **f)** Cobrança de multa compensatória estipulada em valor correspondente a mil vezes o dano estimado pelo Provedor;
+                            - **g)** Divulgação pública da violação (naming and shaming).
+
+                            **8.2 Efeitos da Rescisão.** A rescisão destes Termos por qualquer motivo acarreta a imediata cessação da licença de uso, mas não extingue as obrigações que, por sua natureza, devam subsistir, especialmente as relativas à propriedade intelectual, indenização, confidencialidade, limitação de responsabilidade e foro de eleição.
+
+                            ---
+
+                            ## **CAPÍTULO IX – LEI APLICÁVEL E FORO DE ELEIÇÃO**
+
+                            **9.1 Lei Aplicável.** Estes Termos serão regidos, interpretados e executados de acordo com as leis substantivas do país onde o Provedor mantém sua sede, indicado na página de “aviso legal” (legal notice), ainda que omisso, considerar-se-ão as leis do Distrito Federal do país da América do Sul cuja capital é Brasília, com exclusão de quaisquer normas de conflitos de leis que pudessem levar à aplicação de legislação diversa.
+
+                            **9.2 Foro de Eleição.** Fica eleito o foro da comarca da sede do Provedor como o único competente para dirimir quaisquer controvérsias oriundas ou relacionadas a estes Termos, renunciando o Usuário expressamente a qualquer outro foro, por mais privilegiado que seja ou venha a ser. O Usuário reconhece a completa impossibilidade jurídica e fática de litigar em qualquer outro local, arcando com todas as despesas de deslocamento e honorários advocatícios de sua parte, sem qualquer direito ao benefício da justiça gratuita, salvo prova documental irrefutável de insuficiência econômica total.
+
+                            **9.3 Arbitragem como Pré-requisito.** Qualquer disputa com valor inferior a uma base salarial anual será submetida à arbitragem vinculante, administrada por uma câmara arbitral a ser escolhida pelo Provedor, no idioma português, sem a participação de juízes togados, sendo a sentença arbitral irrecorrível e fazendo coisa julgada material.
+
+                            ---
+
+                            ## **CAPÍTULO X – DISPOSIÇÕES FINAIS**
+
+                            **10.1 Nulidade Parcial.** Se qualquer disposição destes Termos for considerada inválida, ilegal ou inexequível por autoridade judiciária ou arbitral competente, as demais disposições permanecerão em pleno vigor e efeito, e a disposição inválida será automaticamente reformada para refletir, tanto quanto possível, a intenção original das partes.
+
+                            **10.2 Ausência de Renúncia.** A falha do Provedor em exercer qualquer direito ou exigir o cumprimento de qualquer obrigação constante destes Termos não constituirá renúncia a tais direitos ou obrigações, nem impedirá seu exercício futuro, seja isolada ou reiteradamente.
+
+                            **10.3 Cessão e Transferência.** O Usuário não pode ceder, transferir ou sublicenciar quaisquer direitos ou obrigações decorrentes destes Termos, no todo ou em parte, sem o prévio e expresso consentimento por escrito do Provedor. O Provedor, por outro lado, poderá ceder ou transferir estes Termos e todos os direitos a ele inerentes livremente, no todo ou em parte, sem necessidade de notificação ou consentimento do Usuário.
+
+                            **10.4 Vigência e Survivos.** Estes Termos permanecem em vigor enquanto o Usuário mantiver qualquer tipo de vínculo com o Serviço (incluindo contas inativas) e sobrevivem por tempo indeterminado após o término da relação para todas as disposições que, por sua natureza, devam assim perdurar, especialmente aquelas relativas a indenização, propriedade intelectual, limitação de responsabilidade, arbitragem e foro.
+
+                            **10.5 Interpretação Restritiva a Favor do Provedor.** Na hipótese de ambiguidade, omissão ou qualquer dúvida interpretativa, o texto destes Termos será interpretado de forma mais favorável ao Provedor, maximizando seus direitos e minimizando suas responsabilidades, em atenção ao princípio da segurança jurídica e à natureza consensual do presente acordo.
+
+                            ---
+
+                            **DECLARAÇÃO FINAL DO USUÁRIO (LEITURA OPCIONAL, MAS DE EFEITO VINCULANTE)**
+
+                            Li ou tive a oportunidade razoável de ler, mas declino de fazê-lo integralmente, porém concordo incondicionalmente com todos os termos acima. Estou ciente de que este é um contrato juridicamente exigível, que renuncio a diversas garantias e direitos legais, e que assumo todos os riscos associados. Caso esteja agindo em nome de uma pessoa jurídica, declaro ter poderes legais para vinculá-la a este instrumento.
+
+                            **PARA EVITAR DÚVIDAS: NÃO HÁ DIREITO A ARREPENDIMENTO, CANCELAMENTO POR VONTADE UNILATERAL, REEMBOLSO OU QUALQUER OUTRA PRERROGATIVA DO CÓDIGO DE DEFESA DO CONSUMIDOR QUE POSSA SER INTERPRETADA COMO CONTRÁRIA A ESTE TEXTO, NA MEDIDA PERMITIDA PELA LEI. SE A LEI LOCAL IMPUSER DIREITO IRREDUTÍVEL DE ARREPENDIMENTO, O USUÁRIO TERÁ PRAZO DE SETE (7) DIAS CORRIDOS PARA SOLICITAR O CANCELAMENTO, MEDIANTE NOTIFICAÇÃO ESCRITA ENVIADA POR CARTA REGISTRADA COM AR, CUSTEADA PELO USUÁRIO, OCASIÃO EM QUE O PROVEDOR SE RESERVA O DIREITO DE COBRAR PENALIDADE EQUIVALENTE A 50% (CINQUENTA POR CENTO) DO VALOR PAGO A TÍTULO DE REEMBOLSO DAS DESPESAS ADMINISTRATIVAS JÁ INCORRIDAS.**
+
+                            ---
+
+                            **FIM DO DOCUMENTO. VOCÊ ESTÁ LEGALMENTE VINCULADO A ESTES TERMOS A PARTIR DESTE MOMENTO, INDEPENDENTEMENTE DE TER CHEGADO AO FINAL OU TER ROLADO ATÉ ESTA LINHA.**
+
+                            ---
+
+                            *Documento redigido em caráter fictício para fins de demonstração de estilo e estrutura. Nenhuma relação jurídica real se estabelece pela leitura ou utilização deste texto, salvo se assim houver sido convencionado entre as partes em instrumento próprio.*
+                            </textarea>
+
+                            <br>
+
+                            <div>
+                                <input type="checkbox" id="aceito" name="aceito" required>
+                                <label for="aceito">Eu li e aceito os termos de uso.</label><br><br><br>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="main-form-send">Enviar</button>
+                    </form>
+                   
+                    <!--
+                    <div class="main-banner">
+                        <img src="https://media.pichau.com.br/media/aw_rbslider/slides/Filete_Site_Pichau_Energy_Drink_-_1232x140.webp" class="banner-img" >
+                    </div>
+
+                    <div class="main-banner">
+                        <img src="https://media.pichau.com.br/media/aw_rbslider/slides/Filete_Site_Pichau_Energy_Drink_-_1232x140.webp" class="banner-img" >
+                    </div>
+                    -->
+
+                    
+            </div>  
+        </main>
+
+        <footer>
+            <div class="footer-box">
+                <div class="footer-info">
+                    <div class="bi bi-info-circle main-left-subtitle">&nbsp;&nbsp;Info</div>
+                    Este Site foi feito por David Matheus, Davi José e Eriksander. Projeto de Programação
+                    Web. 1º ano Ensino Médio em Técnico em Análise e Desenvolvimento de Sistemas.
+                </div>
+                
+                <div></div>
+
+                <div class="footer-social">
+                    <div class="bi bi-person-circle main-left-subtitle">&nbsp;&nbsp;Redes Sociais</div> <br>
+                    <a href=""> GitHub </a> <br>
+                    <a href=""> Stack Overflow </a> <br>
+                    <a href=""> Facebook </a> <br>
+                    <a href=""> Instagram </a> <br>
+                    <a href=""> Twitter/X </a> <br>
+                </div>
+
+                <div></div>
+
+                <div class="footer-navigator">
+                    <div class="bi bi-compass main-left-subtitle">&nbsp;&nbsp;Navegação</div> <br>
+                    <a href="../index.html"> Página Inicial </a> <br>
+                    <a href="carrinho.html"> Carrinho </a> <br>
+                    <a href="contato.html"> SAC </a> <br>
+                    <a href="depart/depart.html"> Departamentos </a><br>
+                    <a href="info.html"> Info. </a> <br>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

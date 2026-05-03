@@ -1,0 +1,95 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: square.css
+    Criadores: Davi josé, David Matheus e Eriksander
+    Data de criação: 26/04/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               dos cards de produtos dos arquivos HTML principais.
+               Este, por sua vez, é "filho" de main.css, mas que
+               por ser relativamente longo, optamos por deixar separado 
+               do main.css.
+/////////////////////////////////////////////////////////////////////////////*/
+
+.main-square {
+    display: grid;
+    align-content: center;      
+    justify-content: center;
+
+    width: auto;
+    max-width: 15%;
+    min-height: auto;
+    background-color: rgb(0,0,0,0);
+}
+
+    .main-square-box {
+        display: grid;
+        align-content: space-between;       
+
+        width: auto;
+        height: auto;
+
+        padding: 1%;
+    }
+
+    .main-square-title {
+        text-align: left;
+        font-size: 18px;
+        margin-bottom: 2.5%;
+    }
+
+    .main-square-description {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 5%;
+    }
+
+    .main-square-price {
+        color: rgba(0, 218, 18, 0.95);
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: -10%;
+    }
+
+    .main-square-cond {
+        color: #cbd5e0;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .main-square-promotion {
+        color: #d10000;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: -6.5%;
+    }
+
+    .main-square-div {
+        background-color: #242424;
+        width: 40%;
+        border-radius: 25px;
+        border: 2px solid #242424;
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+    
+    .main-square-installment-price {
+        color: rgba(0, 134, 11, 0.95);
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: -7%;
+    }
+
+    .main-square-installment-cond {
+        color: #cbd5e0;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .square-img {
+        display: grid;
+        align-content: space-between;       
+        justify-content: space-between;
+
+        width: 100%;
+        height: auto;
+    }

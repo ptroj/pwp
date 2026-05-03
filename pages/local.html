@@ -1,0 +1,856 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport">
+    <head>
+        <title>Projeto PW</title>
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/square.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/tables.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<link rel="shortcut icon" href="../img/NexusG.png" />
+    </head>
+
+    <body>
+        <header>
+            <div class="header-fixed-bar">
+                <span>Nexus Gamer</span>
+
+                <div class="header-search">
+                    <input type="search" placeholder="Pesquisar produtos..." class="header-search-input">
+                    <button type="submit" class="header-search-button">
+                    <i class="bi bi-search"></i> </button>
+                </div>
+            </div>
+
+			<div class="box-header">
+				<div class="logo">
+					<a href="../index.html"> <img src="../img/NexusG.png" class="logo-img"> </a>
+				</div>
+
+				<div class="title">
+					David Matheus, Davi José e Eriksander
+					<div class="subtitle">
+						Localização
+					</div>
+				</div>
+
+				<div class="space">
+					
+				</div>
+			</div>
+
+            
+		</header>
+
+        <main>
+            <div class="sidebar">
+				<div class="s-index">
+					<div class="s-index-box">
+                        <a href="../index.html" class="bi bi-house s-index-box-text"></a>
+						<a href="carrinho.html" class="bi bi-cart s-index-box-text"></a>
+						<a href="favoritos.html" class="bi bi-heart s-index-box-text"></a>
+						<a href="perfil.html" class="bi bi-person-circle s-index-box-text"></a>
+						<a href="contato.html" class="bi bi-headset s-index-box-text"></a>
+						<a href="local.html" class="bi bi-geo-alt s-index-box-text"></a>
+						<a href="depart/depart.html" class="bi bi-cpu s-index-box-text"></a>
+						<a href="config.html" class="bi bi-gear-wide-connected s-index-box-text"></a>
+                        <a href="info.html" class="bi bi-info-circle s-index-box-text"></a>
+					</div>
+				</div>
+			</div>
+
+            <div class="main-box">
+                <div class="main-text">
+                    <div class="main-left-title">
+                        <i class="bi bi-geo-alt"></i>
+                        &nbsp;&nbsp; Localização
+                    </div>
+
+                    <div class="main-paragraph2"> 
+                        Aqui poderá encontrar endereço, número de contato e recursos das nossas agências espalhadas pelo Brasil.
+                        Para agender e buscar um produto comprado, acesse a aba "Agendar Busca" na forma de compra em <a href="carrinho.html">carrinho</a>.
+                    </div>
+
+                    <table>
+                        <tr>
+                            <th>Núm. Agência</th>
+                            <th>Endereço</th>
+                            <th>Telefone</th>
+                            <th>E-mail</th>
+                            <th>Gerente</th>
+                            <th>Horário Func.</th>
+                            <th>Estado</th>
+                        </tr>
+                        <tr>
+                            <td>101</td>
+                            <td>São Paulo, São Paulo, Av. Paulista, 1000, Bela Vista</td>
+                            <td>(11) 3000-0101</td>
+                            <td>sp101@nexus.com.br</td>
+                            <td>Otto Begavoir</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SP</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>São Paulo, São Paulo, Rua Augusta, 500, Consolação</td>
+                            <td>(11) 3000-0102</td>
+                            <td>sp102@nexus.com.br</td>
+                            <td>Ana Carolina Silva</td>
+                            <td>10h00 - 19h00</td>
+                            <td>SP</td>
+                        </tr>
+                        <tr>
+                            <td>103</td>
+                            <td>São Paulo, São Paulo, Av. Faria Lima, 1500, Itaim Bibi</td>
+                            <td>(11) 3000-0103</td>
+                            <td>sp103@nexus.com.br</td>
+                            <td>Ricardo Almeida</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SP</td>
+                        </tr>
+                        <tr>
+                            <td>201</td>
+                            <td>Rio de Janeiro, Rio de Janeiro, Av. Rio Branco, 200, Centro</td>
+                            <td>(21) 4000-0201</td>
+                            <td>rj201@nexus.com.br</td>
+                            <td>Fernanda Lima</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RJ</td>
+                        </tr>
+                        <tr>
+                            <td>202</td>
+                            <td>Rio de Janeiro, Rio de Janeiro, Rua Barata Ribeiro, 500, Copacabana</td>
+                            <td>(21) 4000-0202</td>
+                            <td>rj202@nexus.com.br</td>
+                            <td>Thiago Mendes</td>
+                            <td>10h00 - 19h00</td>
+                            <td>RJ</td>
+                        </tr>
+                        <tr>
+                            <td>203</td>
+                            <td>Niterói, Rio de Janeiro, Av. Amaral Peixoto, 300, Centro</td>
+                            <td>(21) 4000-0203</td>
+                            <td>rj203@nexus.com.br</td>
+                            <td>Juliana Reis</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RJ</td>
+                        </tr>
+                        <tr>
+                            <td>301</td>
+                            <td>Belo Horizonte, Minas Gerais, Av. Afonso Pena, 1000, Centro</td>
+                            <td>(31) 5000-0301</td>
+                            <td>mg301@nexus.com.br</td>
+                            <td>Lucas Ferreira</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MG</td>
+                        </tr>
+                        <tr>
+                            <td>302</td>
+                            <td>Uberlândia, Minas Gerais, Av. Rondon Pacheco, 2000, Tibery</td>
+                            <td>(34) 5000-0302</td>
+                            <td>mg302@nexus.com.br</td>
+                            <td>Camila Rocha</td>
+                            <td>10h00 - 19h00</td>
+                            <td>MG</td>
+                        </tr>
+                        <tr>
+                            <td>303</td>
+                            <td>Contagem, Minas Gerais, Av. João César de Oliveira, 500, Eldorado</td>
+                            <td>(31) 5000-0303</td>
+                            <td>mg303@nexus.com.br</td>
+                            <td>Bruno Santos</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MG</td>
+                        </tr>
+                        <tr>
+                            <td>401</td>
+                            <td>Curitiba, Paraná, Av. Batel, 1000, Batel</td>
+                            <td>(41) 6000-0401</td>
+                            <td>pr401@nexus.com.br</td>
+                            <td>Marcos Vinícius</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PR</td>
+                        </tr>
+                        <tr>
+                            <td>402</td>
+                            <td>Londrina, Paraná, Av. Higienópolis, 500, Centro</td>
+                            <td>(43) 6000-0402</td>
+                            <td>pr402@nexus.com.br</td>
+                            <td>Cristina Moura</td>
+                            <td>10h00 - 19h00</td>
+                            <td>PR</td>
+                        </tr>
+                        <tr>
+                            <td>403</td>
+                            <td>Maringá, Paraná, Av. Brasil, 300, Zona 02</td>
+                            <td>(44) 6000-0403</td>
+                            <td>pr403@nexus.com.br</td>
+                            <td>Alexandre Prado</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PR</td>
+                        </tr>
+                        <tr>
+                            <td>501</td>
+                            <td>Porto Alegre, Rio Grande do Sul, Av. Ipiranga, 1000, Jardim Botânico</td>
+                            <td>(51) 7000-0501</td>
+                            <td>rs501@nexus.com.br</td>
+                            <td>Guilherme Rosa</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RS</td>
+                        </tr>
+                        <tr>
+                            <td>502</td>
+                            <td>Caxias do Sul, Rio Grande do Sul, Av. Júlio de Castilhos, 500, Centro</td>
+                            <td>(54) 7000-0502</td>
+                            <td>rs502@nexus.com.br</td>
+                            <td>Marisa Lopes</td>
+                            <td>10h00 - 19h00</td>
+                            <td>RS</td>
+                        </tr>
+                        <tr>
+                            <td>503</td>
+                            <td>Pelotas, Rio Grande do Sul, Av. Ferreira Viana, 300, Centro</td>
+                            <td>(53) 7000-0503</td>
+                            <td>rs503@nexus.com.br</td>
+                            <td>Eduarda Gonçalves</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RS</td>
+                        </tr>
+                        <tr>
+                            <td>601</td>
+                            <td>Salvador, Bahia, Av. Oceânica, 1000, Ondina</td>
+                            <td>(71) 8000-0601</td>
+                            <td>ba601@nexus.com.br</td>
+                            <td>Eduardo Santos</td>
+                            <td>09h00 - 18h00</td>
+                            <td>BA</td>
+                        </tr>
+                        <tr>
+                            <td>602</td>
+                            <td>Feira de Santana, Bahia, Av. Getúlio Vargas, 300, Centro</td>
+                            <td>(75) 8000-0602</td>
+                            <td>ba602@nexus.com.br</td>
+                            <td>Renata Oliveira</td>
+                            <td>10h00 - 19h00</td>
+                            <td>BA</td>
+                        </tr>
+                        <tr>
+                            <td>603</td>
+                            <td>Vitória da Conquista, Bahia, Av. Juracy Magalhães, 200, Centro</td>
+                            <td>(77) 8000-0603</td>
+                            <td>ba603@nexus.com.br</td>
+                            <td>Paulo Sérgio</td>
+                            <td>09h00 - 18h00</td>
+                            <td>BA</td>
+                        </tr>
+                        <tr>
+                            <td>701</td>
+                            <td>Recife, Pernambuco, Av. Boa Viagem, 1000, Boa Viagem</td>
+                            <td>(81) 9000-0701</td>
+                            <td>pe701@nexus.com.br</td>
+                            <td>Eduarda Leal</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PE</td>
+                        </tr>
+                        <tr>
+                            <td>702</td>
+                            <td>Olinda, Pernambuco, Av. Getúlio Vargas, 200, Carmo</td>
+                            <td>(81) 9000-0702</td>
+                            <td>pe702@nexus.com.br</td>
+                            <td>Ricardo Farias</td>
+                            <td>10h00 - 19h00</td>
+                            <td>PE</td>
+                        </tr>
+                        <tr>
+                            <td>703</td>
+                            <td>Caruaru, Pernambuco, Av. Rio Branco, 300, Centro</td>
+                            <td>(81) 9000-0703</td>
+                            <td>pe703@nexus.com.br</td>
+                            <td>Carla Menezes</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PE</td>
+                        </tr>
+                        <tr>
+                            <td>801</td>
+                            <td>Fortaleza, Ceará, Av. Beira Mar, 500, Meireles</td>
+                            <td>(85) 1000-0801</td>
+                            <td>ce801@nexus.com.br</td>
+                            <td>Vera Lúcia</td>
+                            <td>09h00 - 18h00</td>
+                            <td>CE</td>
+                        </tr>
+                        <tr>
+                            <td>802</td>
+                            <td>Juazeiro do Norte, Ceará, Av. Padre Cícero, 100, Centro</td>
+                            <td>(88) 1000-0802</td>
+                            <td>ce802@nexus.com.br</td>
+                            <td>Marcelo Andrade</td>
+                            <td>10h00 - 19h00</td>
+                            <td>CE</td>
+                        </tr>
+                        <tr>
+                            <td>803</td>
+                            <td>Sobral, Ceará, Av. Dom José, 200, Centro</td>
+                            <td>(88) 1000-0803</td>
+                            <td>ce803@nexus.com.br</td>
+                            <td>Francisca Gomes</td>
+                            <td>09h00 - 18h00</td>
+                            <td>CE</td>
+                        </tr>
+                        <tr>
+                            <td>901</td>
+                            <td>Brasília, DF, SHIS QI 05, 100, Lago Sul</td>
+                            <td>(61) 2000-0901</td>
+                            <td>df901@nexus.com.br</td>
+                            <td>Rafael Torres</td>
+                            <td>09h00 - 18h00</td>
+                            <td>DF</td>
+                        </tr>
+                        <tr>
+                            <td>902</td>
+                            <td>Taguatinga, DF, Av. Central, 300, Taguatinga Sul</td>
+                            <td>(61) 2000-0902</td>
+                            <td>df902@nexus.com.br</td>
+                            <td>Cláudia Reis</td>
+                            <td>10h00 - 19h00</td>
+                            <td>DF</td>
+                        </tr>
+                        <tr>
+                            <td>903</td>
+                            <td>Ceilândia, DF, Av. Leste, 100, Ceilândia Sul</td>
+                            <td>(61) 2000-0903</td>
+                            <td>df903@nexus.com.br</td>
+                            <td>Anderson Lima</td>
+                            <td>09h00 - 18h00</td>
+                            <td>DF</td>
+                        </tr>
+                        <tr>
+                            <td>1001</td>
+                            <td>Goiânia, Goiás, Av. 85, 1000, Setor Marista</td>
+                            <td>(62) 3000-1001</td>
+                            <td>go1001@nexus.com.br</td>
+                            <td>Wagner Silva</td>
+                            <td>09h00 - 18h00</td>
+                            <td>GO</td>
+                        </tr>
+                        <tr>
+                            <td>1002</td>
+                            <td>Aparecida de Goiânia, Goiás, Av. Rio Verde, 200, Parque Flamboyant</td>
+                            <td>(62) 3000-1002</td>
+                            <td>go1002@nexus.com.br</td>
+                            <td>Luciene Castro</td>
+                            <td>10h00 - 19h00</td>
+                            <td>GO</td>
+                        </tr>
+                        <tr>
+                            <td>1003</td>
+                            <td>Anápolis, Goiás, Av. Brasil, 150, Centro</td>
+                            <td>(62) 3000-1003</td>
+                            <td>go1003@nexus.com.br</td>
+                            <td>Hélio Rocha</td>
+                            <td>09h00 - 18h00</td>
+                            <td>GO</td>
+                        </tr>
+                        <tr>
+                            <td>1101</td>
+                            <td>Belém, Pará, Av. Presidente Vargas, 1000, Campina</td>
+                            <td>(91) 4000-1101</td>
+                            <td>pa1101@nexus.com.br</td>
+                            <td>Antônio Jorge</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PA</td>
+                        </tr>
+                        <tr>
+                            <td>1102</td>
+                            <td>Santarém, Pará, Av. Rui Barbosa, 200, Centro</td>
+                            <td>(93) 4000-1102</td>
+                            <td>pa1102@nexus.com.br</td>
+                            <td>Sônia Maria</td>
+                            <td>10h00 - 19h00</td>
+                            <td>PA</td>
+                        </tr>
+                        <tr>
+                            <td>1103</td>
+                            <td>Parauapebas, Pará, Av. Carajás, 300, Centro</td>
+                            <td>(94) 4000-1103</td>
+                            <td>pa1103@nexus.com.br</td>
+                            <td>José Carlos</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PA</td>
+                        </tr>
+                        <tr>
+                            <td>1201</td>
+                            <td>Manaus, Amazonas, Av. Eduardo Ribeiro, 500, Centro</td>
+                            <td>(92) 5000-1201</td>
+                            <td>am1201@nexus.com.br</td>
+                            <td>Luciana Barros</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AM</td>
+                        </tr>
+                        <tr>
+                            <td>1202</td>
+                            <td>Parintins, Amazonas, Rua Silva, 100, Centro</td>
+                            <td>(92) 5000-1202</td>
+                            <td>am1202@nexus.com.br</td>
+                            <td>Roberto Dias</td>
+                            <td>10h00 - 19h00</td>
+                            <td>AM</td>
+                        </tr>
+                        <tr>
+                            <td>1203</td>
+                            <td>Itacoatiara, Amazonas, Av. Liberdade, 80, Centro</td>
+                            <td>(92) 5000-1203</td>
+                            <td>am1203@nexus.com.br</td>
+                            <td>Tatiana Moura</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AM</td>
+                        </tr>
+                        <tr>
+                            <td>1301</td>
+                            <td>Vitória, Espírito Santo, Av. Dante Michelini, 500, Jardim da Penha</td>
+                            <td>(27) 6000-1301</td>
+                            <td>es1301@nexus.com.br</td>
+                            <td>Adriana Martins</td>
+                            <td>09h00 - 18h00</td>
+                            <td>ES</td>
+                        </tr>
+                        <tr>
+                            <td>1302</td>
+                            <td>Vila Velha, Espírito Santo, Av. Champagnat, 200, Praia da Costa</td>
+                            <td>(27) 6000-1302</td>
+                            <td>es1302@nexus.com.br</td>
+                            <td>Gilberto Nascimento</td>
+                            <td>10h00 - 19h00</td>
+                            <td>ES</td>
+                        </tr>
+                        <tr>
+                            <td>1303</td>
+                            <td>Serra, Espírito Santo, Av. Eldorado, 100, Colina de Laranjeiras</td>
+                            <td>(27) 6000-1303</td>
+                            <td>es1303@nexus.com.br</td>
+                            <td>Sandra Moura</td>
+                            <td>09h00 - 18h00</td>
+                            <td>ES</td>
+                        </tr>
+                        <tr>
+                            <td>1401</td>
+                            <td>São Luís, Maranhão, Av. Litorânea, 500, Ponta d'Areia</td>
+                            <td>(98) 7000-1401</td>
+                            <td>ma1401@nexus.com.br</td>
+                            <td>José Ribamar</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MA</td>
+                        </tr>
+                        <tr>
+                            <td>1402</td>
+                            <td>Imperatriz, Maranhão, Av. Bernardo Sayão, 300, Centro</td>
+                            <td>(99) 7000-1402</td>
+                            <td>ma1402@nexus.com.br</td>
+                            <td>Maria Helena</td>
+                            <td>10h00 - 19h00</td>
+                            <td>MA</td>
+                        </tr>
+                        <tr>
+                            <td>1403</td>
+                            <td>Caxias, Maranhão, Av. Presidente Dutra, 100, Centro</td>
+                            <td>(99) 7000-1403</td>
+                            <td>ma1403@nexus.com.br</td>
+                            <td>Raimundo Nonato</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MA</td>
+                        </tr>
+                        <tr>
+                            <td>1501</td>
+                            <td>Cuiabá, Mato Grosso, Av. do CPA, 1000, Centro Político</td>
+                            <td>(65) 8000-1501</td>
+                            <td>mt1501@nexus.com.br</td>
+                            <td>André Luiz</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MT</td>
+                        </tr>
+                        <tr>
+                            <td>1502</td>
+                            <td>Rondonópolis, Mato Grosso, Av. Amazonas, 150, Centro</td>
+                            <td>(66) 8000-1502</td>
+                            <td>mt1502@nexus.com.br</td>
+                            <td>Beatriz Souza</td>
+                            <td>10h00 - 19h00</td>
+                            <td>MT</td>
+                        </tr>
+                        <tr>
+                            <td>1503</td>
+                            <td>Várzea Grande, Mato Grosso, Av. Couto Magalhães, 200, Centro</td>
+                            <td>(65) 8000-1503</td>
+                            <td>mt1503@nexus.com.br</td>
+                            <td>Celso Freitas</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MT</td>
+                        </tr>
+                        <tr>
+                            <td>1601</td>
+                            <td>Campo Grande, Mato Grosso do Sul, Av. Afonso Pena, 1000, Centro</td>
+                            <td>(67) 9000-1601</td>
+                            <td>ms1601@nexus.com.br</td>
+                            <td>Eliane Rocha</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MS</td>
+                        </tr>
+                        <tr>
+                            <td>1602</td>
+                            <td>Dourados, Mato Grosso do Sul, Av. Marcelino Pires, 300, Centro</td>
+                            <td>(67) 9000-1602</td>
+                            <td>ms1602@nexus.com.br</td>
+                            <td>Sérgio Campos</td>
+                            <td>10h00 - 19h00</td>
+                            <td>MS</td>
+                        </tr>
+                        <tr>
+                            <td>1603</td>
+                            <td>Três Lagoas, Mato Grosso do Sul, Av. Ranulpho Marques Leal, 100, Centro</td>
+                            <td>(67) 9000-1603</td>
+                            <td>ms1603@nexus.com.br</td>
+                            <td>Vanessa Lima</td>
+                            <td>09h00 - 18h00</td>
+                            <td>MS</td>
+                        </tr>
+                        <tr>
+                            <td>1701</td>
+                            <td>João Pessoa, Paraíba, Av. Epitácio Pessoa, 1000, Tambaú</td>
+                            <td>(83) 1100-1701</td>
+                            <td>pb1701@nexus.com.br</td>
+                            <td>Roberta Cardoso</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PB</td>
+                        </tr>
+                        <tr>
+                            <td>1702</td>
+                            <td>Campina Grande, Paraíba, Av. Floriano Peixoto, 500, Centro</td>
+                            <td>(83) 1100-1702</td>
+                            <td>pb1702@nexus.com.br</td>
+                            <td>Maria de Fátima</td>
+                            <td>10h00 - 19h00</td>
+                            <td>PB</td>
+                        </tr>
+                        <tr>
+                            <td>1703</td>
+                            <td>Santa Rita, Paraíba, Av. Liberdade, 150, Centro</td>
+                            <td>(83) 1100-1703</td>
+                            <td>pb1703@nexus.com.br</td>
+                            <td>Paulo Roberto</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PB</td>
+                        </tr>
+                        <tr>
+                            <td>1801</td>
+                            <td>Teresina, Piauí, Av. Frei Serafim, 1000, Centro</td>
+                            <td>(86) 1200-1801</td>
+                            <td>pi1801@nexus.com.br</td>
+                            <td>Francisco das Chagas</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PI</td>
+                        </tr>
+                        <tr>
+                            <td>1802</td>
+                            <td>Parnaíba, Piauí, Av. São Sebastião, 300, Centro</td>
+                            <td>(86) 1200-1802</td>
+                            <td>pi1802@nexus.com.br</td>
+                            <td>Lúcia Helena</td>
+                            <td>10h00 - 19h00</td>
+                            <td>PI</td>
+                        </tr>
+                        <tr>
+                            <td>1803</td>
+                            <td>Picos, Piauí, Av. Nilo Peçanha, 200, Centro</td>
+                            <td>(89) 1200-1803</td>
+                            <td>pi1803@nexus.com.br</td>
+                            <td>José Alencar</td>
+                            <td>09h00 - 18h00</td>
+                            <td>PI</td>
+                        </tr>
+                        <tr>
+                            <td>1901</td>
+                            <td>Natal, Rio Grande do Norte, Av. Engenheiro Roberto Freire, 1000, Capim Macio</td>
+                            <td>(84) 1300-1901</td>
+                            <td>rn1901@nexus.com.br</td>
+                            <td>Igor Matias</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RN</td>
+                        </tr>
+                        <tr>
+                            <td>1902</td>
+                            <td>Mossoró, Rio Grande do Norte, Av. Rio Branco, 500, Centro</td>
+                            <td>(84) 1300-1902</td>
+                            <td>rn1902@nexus.com.br</td>
+                            <td>Larissa Andrade</td>
+                            <td>10h00 - 19h00</td>
+                            <td>RN</td>
+                        </tr>
+                        <tr>
+                            <td>1903</td>
+                            <td>Parnamirim, Rio Grande do Norte, Av. Maria Lacerda, 200, Centro</td>
+                            <td>(84) 1300-1903</td>
+                            <td>rn1903@nexus.com.br</td>
+                            <td>Ronaldo Silva</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RN</td>
+                        </tr>
+                        <tr>
+                            <td>2001</td>
+                            <td>Porto Velho, Rondônia, Av. Jorge Teixeira, 1000, Industrial</td>
+                            <td>(69) 1400-2001</td>
+                            <td>ro2001@nexus.com.br</td>
+                            <td>Antônio Marcos</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RO</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>Ji-Paraná, Rondônia, Av. Brasil, 500, Centro</td>
+                            <td>(69) 1400-2002</td>
+                            <td>ro2002@nexus.com.br</td>
+                            <td>Joana D'Arc</td>
+                            <td>10h00 - 19h00</td>
+                            <td>RO</td>
+                        </tr>
+                        <tr>
+                            <td>2003</td>
+                            <td>Ariquemes, Rondônia, Av. Tancredo Neves, 200, Centro</td>
+                            <td>(69) 1400-2003</td>
+                            <td>ro2003@nexus.com.br</td>
+                            <td>Cláudio Oliveira</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RO</td>
+                        </tr>
+                        <tr>
+                            <td>2101</td>
+                            <td>Boa Vista, Roraima, Av. Getúlio Vargas, 1000, Centro</td>
+                            <td>(95) 1500-2101</td>
+                            <td>rr2101@nexus.com.br</td>
+                            <td>Márcio Monteiro</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RR</td>
+                        </tr>
+                        <tr>
+                            <td>2102</td>
+                            <td>Rorainópolis, Roraima, Av. Novo Horizonte, 150, Centro</td>
+                            <td>(95) 1500-2102</td>
+                            <td>rr2102@nexus.com.br</td>
+                            <td>Tereza Cristina</td>
+                            <td>10h00 - 19h00</td>
+                            <td>RR</td>
+                        </tr>
+                        <tr>
+                            <td>2103</td>
+                            <td>Caracaraí, Roraima, Av. Sete de Setembro, 80, Centro</td>
+                            <td>(95) 1500-2103</td>
+                            <td>rr2103@nexus.com.br</td>
+                            <td>Josué Barreto</td>
+                            <td>09h00 - 18h00</td>
+                            <td>RR</td>
+                        </tr>
+                        <tr>
+                            <td>2201</td>
+                            <td>Florianópolis, Santa Catarina, Av. Beira Mar Norte, 1000, Centro</td>
+                            <td>(48) 1600-2201</td>
+                            <td>sc2201@nexus.com.br</td>
+                            <td>Rafaela Schmidt</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SC</td>
+                        </tr>
+                        <tr>
+                            <td>2202</td>
+                            <td>Joinville, Santa Catarina, Av. Juscelino Kubitschek, 500, América</td>
+                            <td>(47) 1600-2202</td>
+                            <td>sc2202@nexus.com.br</td>
+                            <td>Felipe Augusto</td>
+                            <td>10h00 - 19h00</td>
+                            <td>SC</td>
+                        </tr>
+                        <tr>
+                            <td>2203</td>
+                            <td>Blumenau, Santa Catarina, Av. Beira Rio, 300, Velha</td>
+                            <td>(47) 1600-2203</td>
+                            <td>sc2203@nexus.com.br</td>
+                            <td>Beatriz Wohlers</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SC</td>
+                        </tr>
+                        <tr>
+                            <td>2301</td>
+                            <td>Aracaju, Sergipe, Av. Beira Mar, 1000, Atalaia</td>
+                            <td>(79) 1700-2301</td>
+                            <td>se2301@nexus.com.br</td>
+                            <td>Roberto Melo</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SE</td>
+                        </tr>
+                        <tr>
+                            <td>2302</td>
+                            <td>Nossa Senhora do Socorro, Sergipe, Av. São Paulo, 500, Centro</td>
+                            <td>(79) 1700-2302</td>
+                            <td>se2302@nexus.com.br</td>
+                            <td>Cíntia Nunes</td>
+                            <td>10h00 - 19h00</td>
+                            <td>SE</td>
+                        </tr>
+                        <tr>
+                            <td>2303</td>
+                            <td>Lagarto, Sergipe, Av. Pedro Paes, 200, Centro</td>
+                            <td>(79) 1700-2303</td>
+                            <td>se2303@nexus.com.br</td>
+                            <td>Humberto Santos</td>
+                            <td>09h00 - 18h00</td>
+                            <td>SE</td>
+                        </tr>
+                        <tr>
+                            <td>2401</td>
+                            <td>Palmas, Tocantins, Av. JK, 1000, Plano Diretor Sul</td>
+                            <td>(63) 1800-2401</td>
+                            <td>to2401@nexus.com.br</td>
+                            <td>Leandro Costa</td>
+                            <td>09h00 - 18h00</td>
+                            <td>TO</td>
+                        </tr>
+                        <tr>
+                            <td>2402</td>
+                            <td>Araguaína, Tocantins, Av. Filadélfia, 500, Centro</td>
+                            <td>(63) 1800-2402</td>
+                            <td>to2402@nexus.com.br</td>
+                            <td>Simone Dias</td>
+                            <td>10h00 - 19h00</td>
+                            <td>TO</td>
+                        </tr>
+                        <tr>
+                            <td>2403</td>
+                            <td>Gurupi, Tocantins, Av. Rio de Janeiro, 200, Centro</td>
+                            <td>(63) 1800-2403</td>
+                            <td>to2403@nexus.com.br</td>
+                            <td>Maurício Alves</td>
+                            <td>09h00 - 18h00</td>
+                            <td>TO</td>
+                        </tr>
+                        <tr>
+                            <td>2501</td>
+                            <td>Rio Branco, Acre, Av. Ceará, 500, Bosque</td>
+                            <td>(68) 1900-2501</td>
+                            <td>ac2501@nexus.com.br</td>
+                            <td>Carlos Alberto</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AC</td>
+                        </tr>
+                        <tr>
+                            <td>2502</td>
+                            <td>Cruzeiro do Sul, Acre, Av. Brasil, 100, Centro</td>
+                            <td>(68) 1900-2502</td>
+                            <td>ac2502@nexus.com.br</td>
+                            <td>Mariana Souza</td>
+                            <td>10h00 - 19h00</td>
+                            <td>AC</td>
+                        </tr>
+                        <tr>
+                            <td>2503</td>
+                            <td>Sena Madureira, Acre, Av. Getúlio Vargas, 80, Centro</td>
+                            <td>(68) 1900-2503</td>
+                            <td>ac2503@nexus.com.br</td>
+                            <td>Fernando Lima</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AC</td>
+                        </tr>
+                        <tr>
+                            <td>2601</td>
+                            <td>Maceió, Alagoas, Av. Paulista, 100, Ponta Verde</td>
+                            <td>(82) 2000-2601</td>
+                            <td>al2601@nexus.com.br</td>
+                            <td>Patrícia Melo</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AL</td>
+                        </tr>
+                        <tr>
+                            <td>2602</td>
+                            <td>Arapiraca, Alagoas, Av. Rio Branco, 150, Centro</td>
+                            <td>(82) 2000-2602</td>
+                            <td>al2602@nexus.com.br</td>
+                            <td>Ricardo Nunes</td>
+                            <td>10h00 - 19h00</td>
+                            <td>AL</td>
+                        </tr>
+                        <tr>
+                            <td>2603</td>
+                            <td>Palmeira dos Índios, Alagoas, Av. Amazonas, 100, Centro</td>
+                            <td>(82) 2000-2603</td>
+                            <td>al2603@nexus.com.br</td>
+                            <td>Simone Costa</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AL</td>
+                        </tr>
+                        <tr>
+                            <td>2701</td>
+                            <td>Macapá, Amapá, Av. FAB, 500, Centro</td>
+                            <td>(96) 2100-2701</td>
+                            <td>ap2701@nexus.com.br</td>
+                            <td>João Pedro</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AP</td>
+                        </tr>
+                        <tr>
+                            <td>2702</td>
+                            <td>Santana, Amapá, Av. Ismênia, 300, Centro</td>
+                            <td>(96) 2100-2702</td>
+                            <td>ap2702@nexus.com.br</td>
+                            <td>Amanda Silva</td>
+                            <td>10h00 - 19h00</td>
+                            <td>AP</td>
+                        </tr>
+                        <tr>
+                            <td>2703</td>
+                            <td>Laranjal do Jari, Amapá, Av. Beira Rio, 50, Centro</td>
+                            <td>(96) 2100-2703</td>
+                            <td>ap2703@nexus.com.br</td>
+                            <td>Gustavo Rocha</td>
+                            <td>09h00 - 18h00</td>
+                            <td>AP</td>
+                        </tr>
+                    </table>
+                    
+                </div>        
+            </div>  
+        </main>
+
+        <footer>
+            <div class="footer-box">
+                <div class="footer-info">
+                    <div class="bi bi-info-circle main-left-subtitle">&nbsp;&nbsp;Info</div>
+                    Este Site foi feito por David Matheus, Davi José e Eriksander. Projeto de Programação
+                    Web. 1º ano Ensino Médio em Técnico em Análise e Desenvolvimento de Sistemas.
+                </div>
+                
+                <div></div>
+
+                <div class="footer-social">
+                    <div class="bi bi-person-circle main-left-subtitle">&nbsp;&nbsp;Redes Sociais</div> <br>
+                    <a href=""> GitHub </a> <br>
+                    <a href=""> Stack Overflow </a> <br>
+                    <a href=""> Facebook </a> <br>
+                    <a href=""> Instagram </a> <br>
+                    <a href=""> Twitter/X </a> <br>
+                </div>
+
+                <div></div>
+
+                <div class="footer-navigator">
+                    <div class="bi bi-compass main-left-subtitle">&nbsp;&nbsp;Navegação</div> <br>
+                    <a href="../index.html"> Página Inicial </a> <br>
+                    <a href="carrinho.html"> Carrinho </a> <br>
+                    <a href="contato.html"> SAC </a> <br>
+                    <a href="depart/depart.html"> Departamentos </a><br>
+                    <a href="info.html"> Info. </a> <br>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

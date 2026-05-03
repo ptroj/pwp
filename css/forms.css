@@ -1,0 +1,95 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: forms.css
+    Criadores: Davi josé, David Matheus e Eriksander
+    Data de criação: 03/05/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               dos formularios das paginas HTML.
+/////////////////////////////////////////////////////////////////////////////*/
+
+.main-form {
+    display: grid;
+    align-items: start;
+    align-content: left;
+    
+    width: 80%;
+    text-align: left;
+}
+
+.main-form-address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+    width: 100%;
+}
+
+.main-form-address input {
+    width: 100%;
+    padding: 5%;
+    padding-right: 100%;
+}
+
+    #estado {
+        width: 240%;
+        padding: 5%;
+    }
+
+    .estado {
+        margin-left: -5%;
+    }
+
+.main-form-send {
+    transition: 0.5s;
+}
+
+    .main-form-send:hover {
+        box-shadow: 0px 0px 10px red;
+        border: 1px solid rgb(255, 0, 0);
+    }
+
+.main-form-terms {
+    display: grid;
+}
+
+    #main-form-terms-text {
+        width: 100%;
+        resize: none;
+        text-align: justify;
+        font-size: large;
+    }
+
+
+button, textarea, select, option, input {
+    background-color: rgb(19, 19, 19);
+    padding: 1%;
+
+    color: gray;
+
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 255px;
+}
+
+button {
+    background-color: rgb(19, 19, 19);
+    padding: 1%;
+
+    color: gray;    
+    width: 40%;
+
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 25px;
+}
+
+textarea {
+    background-color: rgb(19, 19, 19);
+    padding: 1%;
+
+    color: gray;
+
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 25px;
+}
+
+

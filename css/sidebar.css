@@ -1,0 +1,70 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: sidebar.css
+    Criadores: Davi josé, David Matheus e Eriksander
+    Data de criação: 26/04/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               do sidebar dos arquivos HTML principais.
+/////////////////////////////////////////////////////////////////////////////*/
+
+.sidebar {
+	transition: all 0.5s ease;
+
+	position: fixed;
+	top: 25%;
+	left: 1%;
+
+	display: grid;
+	justify-content: center;  
+	align-items: center;
+
+	width: 2vw;
+	height: 32vh;
+	background-color: #111; 
+	border: 1px solid #333;
+	
+	border-radius: 25px;
+
+	margin: 0;
+}
+	.sidebar a {
+		color: #cbd5e0;
+	}
+
+	.sidebar a:hover {
+		color: rgb(255, 0, 0);
+		text-shadow: 0px 0px 5px rgb(185, 0, 0);
+	}
+
+	.s-index {
+		display: grid;
+		justify-content: start;
+		align-items: center;
+
+		height: 100%;
+		width: auto;
+
+		padding-top: 12.5%;
+		padding-bottom: 5.5%;
+	}
+
+	.s-index-box {
+		display: grid;
+		justify-content: space-between;
+		align-items: start;
+	
+		text-align: left;
+
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.s-index-box-text {
+		font-size: 22px;
+
+		z-index: 999;
+	}
+
+	.s-index-box-text:hover {
+		z-index: 1000;
+	}

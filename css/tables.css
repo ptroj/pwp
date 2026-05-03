@@ -1,0 +1,25 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: tables.css
+    Criadores: Davi josé, David Matheus e Eriksander
+    Data de criação: 03/05/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               das tabelas em HTML.
+/////////////////////////////////////////////////////////////////////////////*/
+
+table, td, tr, th {
+    border: 2px solid rgb(27, 27, 27);
+}
+
+th {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: rgb(27, 27, 27);
+}
+
+td {
+    text-align: left;
+    border-top: none;
+    border-bottom: none;
+}

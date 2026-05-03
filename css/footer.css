@@ -1,0 +1,83 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: footer.css
+    Criadores: Davi josé, David Matheus e Eriksander
+	Data de criação: 26/04/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               do rodapé dos arquivos HTML principais.
+/////////////////////////////////////////////////////////////////////////////*/
+
+footer {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100vw;
+	height: 28vh;
+	background-color: #0c0c0c;
+	border-top: 1px solid #1a1a1a;
+}
+
+footer a {
+	color: #cbd5e0;
+	text-decoration: underline;
+}
+	.footer-box {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		
+		height: 80%;
+		width: 60vw;
+		max-width: 80vw;
+
+		background-color: transparent;
+		padding: 1%;
+	}
+		
+		.footer-info {
+			display: flex;
+            flex-direction: column;
+			justify-content: start;
+			align-items: center;
+			
+			text-align: justify;
+			height: 90%;
+			width: 25%;
+
+			background-color: transparent;
+			padding: 1%;
+		}
+		
+		.footer-social {
+			display: flex;
+            flex-direction: column;
+			justify-content: start;
+			align-items: left;
+		
+			text-align: left;
+			height: 90%;
+			width: 20.5%;
+
+			background-color: transparent;
+			padding: 1%;
+			padding-left: 10%;
+			line-height: 0.80;
+		}
+		
+		.footer-navigator {
+			display: flex;
+            flex-direction:column ;
+			justify-content: start;
+			align-items: left;
+		
+			text-align: left;
+			height: 90%;
+			width: 20.5%;
+
+			background-color: transparent;
+			padding: 1%;
+			padding-left: 10%;
+			line-height: 0.80;
+		}

@@ -1,0 +1,153 @@
+/*////////////////////////////////////////////////////////////////////////////
+    Nome: header.css
+    Criadores: Davi josé, David Matheus e Eriksander
+    Data de criação: 26/04/2026
+    Última modificação: 03/05/2026
+    Descrição: Este arquivo contém todas definições de estilo
+               do header dos arquivos HTML principais.
+/////////////////////////////////////////////////////////////////////////////*/
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;  
+	align-items: center;
+
+	width: 100vw;
+	height: 22.5vh;
+	background-color: #0e0e0e; 
+	border-bottom: 2px solid #222;
+}
+
+header span {
+	transition: 0.25s;
+}
+
+header span:hover {
+	color: red;
+	text-shadow: 0px 0px 10px red;
+}
+	.box-header {
+		display: inline-flex;
+		justify-content: space-between;  
+		align-items: center;
+
+		width: 95%;
+		height: 60%;
+		margin-bottom: 1%;
+	}
+
+		.title {
+			display: grid;
+			align-items: center;
+			justify-content: center;
+
+			margin: auto;
+
+			font-family: Quicksand;
+			font-size: 32px;
+			text-align: center;
+		}
+
+		.subtitle {
+			display: grid;
+			align-items: center;
+			justify-content: center;
+
+			margin: auto;
+
+			font-family: Quicksand;
+			font-size: 22px;
+			text-align: center;
+		}
+
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			margin-right: 20%;
+
+			width: 10%;
+			height: 100%;
+		}
+			.logo-img {
+				width: 90%;
+				height: 90%;
+
+				border-radius: 100px;
+			}
+
+		.space {
+			width: 30%;
+			height: 100%;
+		}
+    
+	.header-fixed-bar {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+
+		position: fixed;
+		top: 0;
+
+		width: 100%;
+		min-height: 6%;
+		height: auto;
+
+		font-size: 28px;
+		background-color: rgba(14, 14, 14, 0.95);
+		border-bottom: 1px solid #333;
+		z-index: 1000;
+	}
+
+		.header-search {
+			display: flex;
+			align-items: center;
+			
+			background-color: #1a1a1a;
+			
+			border: 1px solid #333;
+			border-radius: 25px;
+			
+			padding-left: 0.5%;
+			padding-right: 0.5%;
+
+			transition: 0.25s;
+		}
+
+		.header-search:focus-within {
+			border-color: #ff0000;
+			box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+		}
+
+		.header-search-input {
+			background: transparent;
+			border: none;
+			color: white;
+			
+			padding: 8px;
+			outline: none;
+			
+			width: 200px;
+		}
+
+		.header-search-button {
+			height: 100%;
+			width: 90%;
+
+			background: transparent;
+			color: #888;
+
+			transition: 0.3s;
+
+			border-radius: 25px;
+			border: 1px solid #333;
+		}
+
+		.header-search-button:hover {
+			border-color: #ff0000;
+			color: #ff0000;
+			box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+		}
+    
