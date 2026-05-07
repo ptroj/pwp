@@ -19,6 +19,8 @@
     max-width: 15%;
     min-height: auto;
     background-color: rgb(0,0,0,0);
+
+    transition: 0.5s;
 }
 
     .main-square-box {

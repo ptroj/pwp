@@ -12,14 +12,14 @@
 
 	position: fixed;
 	top: 25%;
-	left: 1%;
+	left: 2.5%;
 
 	display: grid;
 	justify-content: center;  
 	align-items: center;
 
-	width: 2vw;
-	height: 32vh;
+	width: 3vw;
+	height: 42vh;
 	background-color: #111; 
 	border: 1px solid #333;
 	
@@ -60,7 +60,7 @@
 	}
 
 	.s-index-box-text {
-		font-size: 22px;
+		font-size: 28px;
 
 		z-index: 999;
 	}

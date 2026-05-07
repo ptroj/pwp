@@ -98,6 +98,18 @@ main {
 				line-height: 1.6;
 			}
 
+			.main-paragraph-center {
+				min-width: 100%;
+				max-width: 100%;
+				height: auto;
+
+				margin-bottom: 3%;
+
+				text-align: center;
+				font-size: 20px;
+				line-height: 1.6;
+			}
+
             .main-paragraph2 {
 				min-width: 100%;
 				max-width: 100%;
@@ -204,7 +216,7 @@ main {
                 }
 
 			.big-depart-icon {
-				font-size: 180px;
+				font-size: 112px;
 			}
 			
 			.main-text-bold {
